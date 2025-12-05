@@ -74,9 +74,9 @@ Pipeline completa en 4 fases, con sus relativos dataframes.
 * ELIMINACIÓN de **mismatch** (casi 15% de dataset perdido)
 * Check missing genre y propagacion por artista de los missing genre
 * Check unique 'spotify_genres' (447 generos musicales diferentes)
-* Mapping y Asignación por 18 macro generos msuicales 'macro_genre_all', definicción de 'primary_macro_genre'
+* Mapping y Asignación por 18 macro generos msuicales `macro_genre_all`, definicción de `primary_macro_genre` 
 * Check registros sospechosos NO SONG y ELIMINACÓN
-* Creación de columnas para analisis (era_tecnologica, columnas booleana por cada macro genero)
+* Creación de columnas para analisis: `era_tecnologica` y columnas booleana por cada macro genero
 * Check final duplicados y consistencia
 * Creación dataset completo y dataset reducido para ANOVA
 
@@ -101,12 +101,12 @@ Pipeline completa en 4 fases, con sus relativos dataframes.
 
 * Transformaciones basicas de columnas (creacion de duration_sec y primary_macro_genre as str)
 * Funciones ANOVA, Tuckey, Boxplot
-* ANOVA y Comparaciones Tukey por: eras tecnologicas, macro genero primario, interaccion de las dos, popularidad y explicit
+* ANOVA y Comparaciones Tukey por: `era_tecnologica`,`primary_macro_genre`, interaccion de `era_tecnologica` y `primary_macro_genre`, `popularity`,`explicit`
 * Graficos:
-* distribución de duration_min, distribución de AVG_duration_min
-* Heatmap distribución macro generos por año, tambien en version normalizada
-* Heatmaps de co-ocurrencias de generos, tambien en version normalizada
-* Grafico sunburst por combinaciones de generos musicales
+  * distribución de duration_min, distribución de AVG_duration_min
+  * Heatmap distribución macro generos por año, tambien en version normalizada
+  * Heatmaps de co-ocurrencias de generos, tambien en version normalizada
+  * Grafico sunburst por combinaciones de generos musicales
 
 **Output:**
 
