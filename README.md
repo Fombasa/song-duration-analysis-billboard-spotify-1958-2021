@@ -46,6 +46,8 @@ Pipeline completa en 4 fases, con sus relativos dataframes.
 
 **Procesos principales:**
 
+* Durante la integración con Spotify API, se recuperan metadatos adicionales para cada canción, incluyendo: track_id, track_name, track_popularity, album_name, release_date, duration_ms, explicit, artist_id, artist_name y spotify_genres. Estas columnas se añaden al dataframe final junto con los datos originales de Billboard.
+
 * Consulta a Spotify API con cache
 * Manejo de limites (429 Retry-After) y rotación de credenciales
 * Parsing de metadatos (artista, genero, duraciones, popularidad)
