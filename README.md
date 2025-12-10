@@ -178,6 +178,9 @@ https://www.canva.com/design/DAG5hj7Qr9w/igb6U4MpRcMc99cmMIfN0A/view
 
 
 ---
+## Agradecimientos
+Proyecto realizado como parte del programa Data analytics Reskilling - IT Academy en Barcelona Activa.
+Agradecimientos especiales a Joan y todos los mentores y compañeros por su apoyo durante el desarrollo.
 
 # 8. Bibliografía
 
