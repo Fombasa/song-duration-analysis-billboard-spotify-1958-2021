@@ -181,12 +181,12 @@ https://www.canva.com/design/DAG5hj7Qr9w/igb6U4MpRcMc99cmMIfN0A/view
 
 # 8. Bibliografía
 
-Dataset
+- Dataset
 
 Dhar, D. (2021). Billboard The Hot 100 Songs (1958–2021) [Dataset]. Kaggle.
 https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs
 
-APIs y herramientas
+- APIs y herramientas
 
 Spotify. (2024). Spotify for Developers — Web API Documentation.
 https://developer.spotify.com/dashboard
@@ -200,7 +200,7 @@ https://medium.com/@navodas88/using-spotify-api-for-data-collection-537ea2b4c0ab
 Lopez, E. (2023). Data analysis with Spotify API. Medium.
 https://medium.com/@eelopez088/data-analysis-with-spotify-api-a1507f48e9b0
 
-Análisis estadístico
+- Análisis estadístico
 
 Seabold, S., & Perktold, J. (2010). Statsmodels: Econometric and statistical modeling with Python.
 https://www.statsmodels.org/stable/anova.html
@@ -211,7 +211,7 @@ https://www.statsmodels.org/stable/generated/statsmodels.stats.multicomp.pairwis
 Scikit-Posthocs. (2023). User Guide.
 https://scikit-posthocs.readthedocs.io/en/latest/
 
-Artículos y análisis sobre duración musical
+- Artículos y análisis sobre duración musical
 
 Chen, Y.-W., & Jan, S.-S. (2011). Song duration: Implications for popular music and listener engagement.
 Journal of New Music Research, 40(3), 239–248.
