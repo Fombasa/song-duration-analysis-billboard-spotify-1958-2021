@@ -193,10 +193,13 @@ https://developer.spotify.com/dashboard
 
 Spotipy. (2024). Spotipy: A lightweight Python library for the Spotify Web API.
 https://spotipy.readthedocs.io/en/2.25.2/
+
 Navodas, A. (2023). Using Spotify API for data collection. Medium.
 https://medium.com/@navodas88/using-spotify-api-for-data-collection-537ea2b4c0ab
+
 Lopez, E. (2023). Data analysis with Spotify API. Medium.
 https://medium.com/@eelopez088/data-analysis-with-spotify-api-a1507f48e9b0
+
 Análisis estadístico
 
 Seabold, S., & Perktold, J. (2010). Statsmodels: Econometric and statistical modeling with Python.
@@ -204,8 +207,10 @@ https://www.statsmodels.org/stable/anova.html
 
 Statsmodels. (2024). Tukey HSD function documentation.
 https://www.statsmodels.org/stable/generated/statsmodels.stats.multicomp.pairwise_tukeyhsd.html
+
 Scikit-Posthocs. (2023). User Guide.
 https://scikit-posthocs.readthedocs.io/en/latest/
+
 Artículos y análisis sobre duración musical
 
 Chen, Y.-W., & Jan, S.-S. (2011). Song duration: Implications for popular music and listener engagement.
@@ -214,8 +219,10 @@ https://doi.org/10.1080/09298215.2011.603685
 
 Chartmetric. (2023). Why songs are getting shorter: A streaming-era analysis.
 https://hmc.chartmetric.com/shorter-songs-trend-streaming-history/
+
 BBC News. (2019). Are pop songs really getting shorter?
 https://www.bbc.co.uk/news/resources/idt-052ab668-403d-416f-b5a6-c5692313b9b4
+
 RadioFidelity. (2022). The science of song length: Is 3 minutes really the best?
 https://radiofidelity.com/the-science-of-song-length-is-3-minutes-really-the-best/
 
