@@ -171,7 +171,7 @@ La unificación Billboard + Spotify permite construir un dataset histórico robu
 
 # 7. Presentación del proyecto
 
-La presentación completa del proyecto está disponible en Canva:
+La presentación completa del proyecto está disponible en la carpeta `/slides/` o online en Canva:
 
 https://www.canva.com/design/DAG5hj7Qr9w/igb6U4MpRcMc99cmMIfN0A/view
 <<<
