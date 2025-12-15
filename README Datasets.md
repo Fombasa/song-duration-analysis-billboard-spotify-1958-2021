@@ -9,7 +9,7 @@ Se divide en:
 
 ---
 
-# 🔹 1. Lista de datasets (en orden de pipeline)
+# 1. Lista de datasets (en orden de pipeline)
 
 ---
 ## **`Kaggle - Billboard Hot 100 dataset.csv`**
@@ -78,7 +78,7 @@ Subset optimizado para ANOVA y análisis estadísticos.
 
 ---
 
-## 🔹 2. Categorías de columnas
+## 2. Categorías de columnas
 
 A continuación se agrupan todas las columnas utilizadas en el proyecto según su origen y función.
 
