@@ -9,7 +9,7 @@ It is divided into:
 
 ---
 
-# 🔹 1. Dataset list (pipeline order)
+# 1. Dataset list (pipeline order)
 
 ---
 ## **`Kaggle - Billboard Hot 100 dataset.csv`**
@@ -80,7 +80,7 @@ Optimized subset for ANOVA and statistical analysis.
 
 ---
 
-# 🔹 2. Column categories
+# 2. Column categories
 
 All columns used in the project are grouped below by origin and function.
 
