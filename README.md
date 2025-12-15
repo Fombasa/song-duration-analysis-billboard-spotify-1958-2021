@@ -14,6 +14,12 @@ Análisis histórico de la duración de las canciones del Billboard Hot 100 (195
 
 **La evolución histórica de los géneros revela patrones claros de transición estilística**, visibles en heatmaps y agregaciones temporales, que reflejan cambios culturales y tecnológicos en la música popular.
 
+### Evolución histórica de la duración media de las canciones
+
+![AVG Songs Duration per Year](figures/avg%20duration%20per%20year%20era%20tecnologica.png)
+
+*La duración media de las canciones aumenta progresivamente desde la era del vinilo, alcanza su máximo durante la era del CD y disminuye de forma clara con la consolidación del consumo digital y el streaming.*
+
 ## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio.
@@ -63,6 +69,12 @@ Explorar cómo han variado la **duración**, los **géneros musicales**, y varia
    - efecto de las variables Popularity y Explicit sobre la duración.
 3. **Analizar la evolución y co-ocurrencia** de los géneros musicales mediante heatmaps y agregaciones.
 4. **Detectar patrones históricos (en general)** que describan cómo cambia la música popular entre 1958 y 2021.
+
+### Duración media por género y era tecnológica
+
+![Heatmap AVG duration x genre x era](figures/heatmap%20avg%20duration%20x%20primary%20genre%20x%20era%20tecnologica.png)
+
+*La interacción entre género musical y era tecnológica muestra diferencias claras en la duración media, confirmando que el impacto del cambio tecnológico no es homogéneo entre estilos musicales.*
 
 
 ---
@@ -187,6 +199,12 @@ El análisis ANOVA confirma diferencias estadísticas significativas en la durac
 
 ### **Sobre los géneros musicales**  
 Los heatmaps muestran cambios claros en la presencia relativa de los géneros a lo largo de décadas, destacando transiciones estilísticas visibles en el tiempo. el análisis ANOVA confirma diferencias estadísticas significativas en la duración media entre los varios generos musicales. Tukey HSD identificó qué 55 combinaciónes de generos sobre 153 muestran diferencias entre ellos.
+
+### Relaciones entre géneros musicales (co-ocurrencias)
+
+![Co-occurrence genres normalized](figures/co%20occurence%20matrix%20macro%20genres%20normalized.png)
+
+*La matriz de co-ocurrencias normalizada muestra afinidades estilísticas entre géneros que coexisten dentro de una misma canción, destacando relaciones recurrentes entre estilos afines.*
 
 
 ---
