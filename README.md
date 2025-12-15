@@ -14,6 +14,19 @@ Análisis histórico de la duración de las canciones del Billboard Hot 100 (195
 
 **La evolución histórica de los géneros revela patrones claros de transición estilística**, visibles en heatmaps y agregaciones temporales, que reflejan cambios culturales y tecnológicos en la música popular.
 
+## Cómo ejecutar el proyecto
+
+1. Clonar el repositorio.
+2. Descargar los archivos CSV necesarios en la carpeta `/data/`.
+3. Abrir los Jupyter Notebooks ubicados en la carpeta `/notebooks/`.
+4. Ajustar los *file paths* locales en los notebooks según la estructura de tu entorno.
+5. Añadir las credenciales de Spotify API en el notebook correspondiente a la Fase 2.
+6. Ejecutar los notebooks en orden (Fase 1 → Fase 4).
+
+!Disclaimer: Las credenciales de Spotify API no se incluyen en el repositorio por motivos de seguridad.
+Cada usuario debe generar sus propias credenciales a través de Spotify for Developers.
+
+
 ---
 
 # 1. Introducción
@@ -237,4 +250,14 @@ https://www.bbc.co.uk/news/resources/idt-052ab668-403d-416f-b5a6-c5692313b9b4
 
 RadioFidelity. (2022). The science of song length: Is 3 minutes really the best?
 https://radiofidelity.com/the-science-of-song-length-is-3-minutes-really-the-best/
+
+
+---
+
+## Autor
+
+**Edoardo Marchionni**  
+Data Analyst  
+LinkedIn: https://www.linkedin.com/in/edoardomarchionni/
+GitHub: https://github.com/Fombasa
 
