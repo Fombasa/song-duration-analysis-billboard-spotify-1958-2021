@@ -1,8 +1,17 @@
 # Proyecto: Analisis Billboard + integracion Spotify API
 
+![IT Academy Logo](https://www.barcelonactiva.cat/documents/20124/1625465/it_academy_logo.png)
 Proyecto final desarrollado durante el Bootcamp de Data Analytics de IT Academy (Barcelona Activa).
 
-![IT Academy Logo](https://www.barcelonactiva.cat/documents/20124/1625465/it_academy_logo.png)
+### Resumen y resultados clave
+
+Análisis histórico de la duración de las canciones del Billboard Hot 100 (1958–2021) a partir de la integración y depuración de datos de Billboard y Spotify API.
+
+**La duración media de las canciones cambia de forma significativa entre eras tecnológicas**, confirmando un efecto estructural del contexto de consumo musical (ANOVA, p < 0.01, Tukey HSD).
+
+**Existen diferencias significativas en la duración entre géneros musicales**, con múltiples combinaciones de géneros mostrando contrastes estadísticamente relevantes (ANOVA, p < 0.01Tukey HSD).
+
+**La evolución histórica de los géneros revela patrones claros de transición estilística**, visibles en heatmaps y agregaciones temporales, que reflejan cambios culturales y tecnológicos en la música popular.
 
 ---
 
@@ -18,7 +27,6 @@ El foco principal del análisis se centra en:
 - la variación histórica de la duración de las canciones,
 - la distribución de géneros musicales,
 - y su comparación entre distintas **eras tecnológicas**.
-
 
 
 Link to dataset original:  
