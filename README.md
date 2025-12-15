@@ -1,6 +1,7 @@
 # Proyecto: Analisis Billboard + integracion Spotify API
 
 ![IT Academy Logo](https://www.barcelonactiva.cat/documents/20124/1625465/it_academy_logo.png)
+
 Proyecto final desarrollado durante el Bootcamp de Data Analytics de IT Academy (Barcelona Activa).
 
 ### Resumen y resultados clave
