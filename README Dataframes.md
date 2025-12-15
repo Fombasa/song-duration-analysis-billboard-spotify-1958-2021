@@ -1,15 +1,15 @@
-# Documentación de Dataframes
+# Documentación de Datasets
 
-Esta sección describe **todos los dataframes** generados a lo largo del proyecto, con un enfoque claro y sin repeticiones innecesarias.
+Esta sección describe **todos los datasets** generados a lo largo del proyecto, con un enfoque claro y sin repeticiones innecesarias.
 
 Se divide en:
 
-1. **Lista de dataframes en orden de aparición**, con una breve descripción.
+1. **Lista de datasets en orden de aparición**, con una breve descripción.
 2. **Categorías de columnas** (explicadas en detalle).
 
 ---
 
-# 🔹 1. Lista de Dataframes (en orden de pipeline)
+# 🔹 1. Lista de datasets (en orden de pipeline)
 
 ---
 ## **`Kaggle - Billboard Hot 100 dataset.csv`**
@@ -58,7 +58,7 @@ Registros descartados (~15%) por mismatch entre Billboard y Spotify.
 No continúa en la pipeline. 
 - output fase 3
 
-**Advertencia:** A partir de este punto, todos los dataframes contienen solo ~85% de los registros originales.  
+**Advertencia:** A partir de este punto, todos los datasets contienen solo ~85% de los registros originales.  
 Los datos descartados NO estan reintegrados de momento.
 
 ---
