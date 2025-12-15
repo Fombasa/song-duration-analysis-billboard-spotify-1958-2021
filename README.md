@@ -258,7 +258,7 @@ https://radiofidelity.com/the-science-of-song-length-is-3-minutes-really-the-bes
 
 **Edoardo Marchionni**  
 Data Analyst  
-LinkedIn: https://www.linkedin.com/in/edoardomarchionni/
 
-GitHub: https://github.com/Fombasa
+- LinkedIn: https://www.linkedin.com/in/edoardomarchionni/
+- GitHub: https://github.com/Fombasa
 
