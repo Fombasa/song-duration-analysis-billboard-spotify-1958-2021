@@ -1,0 +1,165 @@
+# Dataset Documentation
+
+This section describes **all datasets** generated throughout the project, with a clear structure and without unnecessary repetition.
+
+It is divided into:
+
+1. **List of datasets in pipeline order**, with a brief description.
+2. **Column categories**, explained in detail.
+
+---
+
+# 🔹 1. Dataset list (pipeline order)
+
+---
+## **`Kaggle - Billboard Hot 100 dataset.csv`**
+Shape: 330,087 × 7
+
+Original dataset (1958–2021) downloaded from Kaggle.  
+Contains weekly Billboard Hot 100 rankings.
+- Input: Phase 1
+
+---
+## **`billboard_weekly_ready.csv`**
+Shape: 330,087 × 9
+
+Cleaned weekly dataset prepared for Spotify API integration.
+- Output: Phase 1  
+- Input: Phase 2
+
+---
+## **`billboard_top100_annual.csv`**
+Shape: 6,400 × 9
+
+Auxiliary dataset containing annual Top 100 rankings.  
+**Not used in subsequent phases.**
+- Output: Phase 1
+
+---
+## **`spotify_weekly_integrated.csv`**
+Shape: 330,073 × 16
+
+Dataset enriched with Spotify metadata (genres, artist, duration, album, popularity).
+- Output: Phase 2  
+- Input: Phase 3
+
+---
+## **`spotify_weekly_errors.csv`**
+Shape: 0 × 3 (`song_and_artist`, `date`, `reason`)
+
+API error log file.  
+Typically empty.
+- Output: Phase 2
+
+---
+## **`mismatch_artist_para_api.csv`**
+Shape: 49,799 × 7
+
+Records discarded (~15%) due to mismatches between Billboard and Spotify.  
+They do not continue in the pipeline.
+- Output: Phase 3
+
+**Warning:** From this point onward, all datasets contain only ~85% of the original records.  
+Discarded data have **not** been reintegrated.
+
+---
+## **`spotify_clean_full.csv`**
+Shape: 279,424 × 40
+
+Fully cleaned dataset with derived variables, musical genres, and technological era.
+- Output: Phase 3  
+- Input: Phase 4
+
+---
+## **`spotify_clean_for_anova.csv`**
+Shape: 279,424 × 8
+
+Optimized subset for ANOVA and statistical analysis.
+- Output: Phase 3  
+- Input: Phase 4
+
+---
+
+# 🔹 2. Column categories
+
+All columns used in the project are grouped below by origin and function.
+
+---
+
+## **A) Original Billboard columns (Kaggle)**
+These columns exist only in the original Kaggle dataset.
+
+- **date** — Billboard chart week date  
+- **song** — Song title  
+- **last-week** — Previous week rank  
+- **peak-rank** — Highest rank achieved  
+- **weeks-on-board** — Number of weeks on chart  
+
+- **artist** — Main artist according to Billboard  
+  → transformed into `artist_main`  
+- **rank** — Weekly Hot 100 position  
+  → transformed into `position`  
+
+(`rank` and `artist` are renamed and normalized in Phase 1)
+
+---
+
+## **B) Columns created during initial cleaning (Phase 1)**
+First appear in `billboard_weekly_ready.csv`.
+
+- **position** — Renamed from `rank` for Spotify consistency  
+- **artist_main** — Cleaned and standardized artist name  
+- **year** — Year extracted from date  
+- **song_artist** / **song_and_artist** — Normalized concatenation of song + artist for API queries
+
+---
+
+## **C) Columns imported from Spotify API (Phase 2)**
+
+- **track_id**  
+- **track_name**  
+- **track_popularity** — Spotify popularity metric (0–100)  
+- **album_name**  
+- **release_date**  
+- **duration_ms** — Song duration in milliseconds  
+- **explicit** — Explicit content flag (true/false)  
+- **artist_id**  
+- **artist_name**  
+- **spotify_genres** — Original Spotify genre list  
+
+---
+
+## **D) Columns derived during advanced cleaning (Phase 3)**
+
+- **id** — Unique row identifier  
+- **duration_min** — Song duration in minutes  
+- **spotify_genres_list** — Parsed list from `spotify_genres`  
+- **macro_genres_all** — Assigned macro-genre list (18 categories)  
+- **primary_macro_genre** — Dominant macro genre  
+- **era_tecnologica** — Technological era classification (Vinyl, CD, MP3, Streaming)
+
+---
+
+## **E) Boolean genre columns (18 macro genres)**
+One column per macro genre.
+
+- **genre_pop**  
+- **genre_rock**  
+- **genre_jazz**  
+*(+15 additional columns, one per assigned category)*
+
+---
+
+## **F) Statistical columns used for ANOVA**
+Final subset included in `spotify_clean_for_anova.csv`.
+
+- **id**  
+- **duration_min**  
+- **primary_macro_genre**  
+- **era_tecnologica**  
+- **track_popularity**  
+- **position**  
+- **explicit**  
+- **year**
+
+---
